@@ -31,3 +31,22 @@ O objetivo deste projeto é aplicar na prática os conhecimentos adquiridos dura
  
  
 ---
+ 
+Equipe TechNova
+ 
+Cauã Porciuncula
+ 
+Erick
+ 
+Gabriela
+ 
+Rafael Lima
+ 
+Maylon Leyn
+ 
+ 
+ 
+---
+ 
+© 2025 TechNova Solutions
+Todos os direitos reservados.
