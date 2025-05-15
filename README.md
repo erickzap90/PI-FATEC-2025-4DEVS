@@ -1,7 +1,7 @@
 # **TechNova Solutions**  
 _Soluções inteligentes para um mundo conectado_  
  
-![TechNova Logo](img/logo.png)
+<img width="45%" src="img/logo.png">
  
 ---
  
