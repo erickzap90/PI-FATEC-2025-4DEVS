@@ -1,7 +1,7 @@
 # **TechNova Solutions**  
 _Soluções inteligentes para um mundo conectado_  
  
-![TechNova Logo](https://br-prod.asyncgw.teams.microsoft.com/v1/objects/0-brse-d1-cb3ef42052be14ca4cd84f7d23002702/views/imgpsh_fullsize)
+![TechNova Logo](img/logo.png)
  
 ---
  
