@@ -1,3 +1,3 @@
 # Diagrama de Casos de Uso
 
-![Diagrama de Casos de Uso](caso_uso.png)
+![Diagrama de Casos de Uso](/img/caso_uso.png)

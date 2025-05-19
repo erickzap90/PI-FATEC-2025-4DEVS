@@ -1,7 +1,11 @@
-# **TechNova Solutions**  
-_Soluções inteligentes para um mundo conectado_  
- 
-<img width="45%" src="img/logomain.png">
+<h1 style="text-align:center;">TechNova Solutions</h1> 
+
+
+<div style="text-align:center;">
+<h3">Soluções inteligentes para um mundo conectado</h3>  
+
+<img width="45%" src="img/logotech.png">
+</div>
  
 ---
  
@@ -14,9 +18,8 @@ Este repositório contém os arquivos e documentações do Projeto Interdiscipli
 O objetivo deste projeto é aplicar na prática os conhecimentos adquiridos durante o curso, criando uma solução real para um problema identificado. O sistema foi desenvolvido com foco em escalabilidade, usabilidade e boas práticas de programação.
  
 > **Tecnologias Utilizadas:**
-> - Front-end: React / Flutter / HTML + CSS e Bootsrap
-> - Back-end: JavaScript
-> - Outras ferramentas: Papel e caneta, Canva 
+> - Front-end:HTML + CSS e Bootsrap
+> - Outras ferramentas: Papel e caneta, VS Code, PlantUML 
  
 ---
  
