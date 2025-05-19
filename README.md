@@ -1,10 +1,11 @@
-<h1 style="text-align:center;">TechNova Solutions</h1> 
-<h3 style="text-align:center;">Soluções inteligentes para um mundo conectado</h3>  
+<h1 align="center">TechNova Solutions</h1> 
+<h3 align="center">Soluções inteligentes para um mundo conectado</h3>  
 
-<div style="text-align:center;">
+<div align="center">
 
 
 <img width="45%" src="img/logotech.png">
+<img width="40%" src="img/logodalu.png">
 </div>
  
 ---
