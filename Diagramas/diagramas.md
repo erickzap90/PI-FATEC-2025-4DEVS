@@ -1,3 +1,3 @@
 # Diagrama de Casos de Uso
 
-![Documentação](/Documentação/Documento%20PI.odt)
+![Diagrama de casos de uso](/img/caso_uso.png)

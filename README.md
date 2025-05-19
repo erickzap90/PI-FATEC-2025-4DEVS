@@ -1,8 +1,8 @@
 <h1 style="text-align:center;">TechNova Solutions</h1> 
-
+<h3 style="text-align:center;">Soluções inteligentes para um mundo conectado</h3>  
 
 <div style="text-align:center;">
-<h3">Soluções inteligentes para um mundo conectado</h3>  
+
 
 <img width="45%" src="img/logotech.png">
 </div>
