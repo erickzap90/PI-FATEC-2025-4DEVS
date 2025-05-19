@@ -1,0 +1,16 @@
+@startuml
+left to right direction
+rectangle Usuário{
+Caixista --> (Criar pedidos)
+Caixista --> (Atualizar pedidos)
+Caixista --> (Realizar pagamentos)
+}
+rectangle ADM{
+Admin --> (Adicionar produtos)
+Admin --> (Excluir produtos)
+Admin --> (Alterar produtos)
+Admin --> (Dar baixa nos pedidos)
+Admin --> (Verificar historico de vendas)
+Admin --> (Acesso a planilhas de lucros)
+}
+@enduml
