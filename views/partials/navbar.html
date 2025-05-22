@@ -1,32 +1,28 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">DaluDoces</a>
+      <a class="navbar-brand" href="/PI-FATEC-2025-4DEVS/views/index.php">DaluDoces</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="views/new.html">Cadastrar</a>
+            <a class="nav-link" href="/PI-FATEC-2025-4DEVS/views/new.php">Cadastrar</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Admin
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Perfil</a></li>
-              <li><a class="dropdown-item" href="read.html">Listar</a></li>
+              <li><a class="dropdown-item" href="/PI-FATEC-2025-4DEVS/views/admin/pedidos.php">Pedidos</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Dashboard</a></li>
+              <li><a class="dropdown-item" href="/PI-FATEC-2025-4DEVS/views/admin/dashboard.php">Dashboard</a></li>
             </ul>
           </li>
         </ul>
         <form class="d-flex" role="search">
-          <button class="btn btn-outline-warning me-2" type="submit">Login</button>
-          <button class="btn btn-outline-success" type="submit">Carrinho</button>
+          <a href="/PI-FATEC-2025-4DEVS/views/admin/login.php" class="btn btn-success me-2" role="button">Login</a>
+          <a href="/PI-FATEC-2025-4DEVS/views/carrinho.php" class="btn btn-outline-success" role="button">Carrinho</a>
         </form>
       </div>
     </div>

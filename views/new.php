@@ -1,5 +1,7 @@
-
-    
+<?php
+include "partials/header.html";
+include "partials/navbar.html";
+?>
     <!-- Cadastro de Produto -->
     <div class="container my-5">
       <div class="row justify-content-center">
@@ -45,4 +47,8 @@
         </div>
       </div>
     </div>
+
+<?php
+    include "partials/footer.html";
+?>
 
