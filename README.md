@@ -28,7 +28,7 @@ O objetivo deste projeto é aplicar na prática os conhecimentos adquiridos dura
 ><img width="50px" src="https://camo.githubusercontent.com/693dc250d1c982bee56e759187ec3612558051fc57b8ea31146d6138871357aa/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e406c61746573742f69636f6e732f637373332f637373332d6f726967696e616c2e737667"></div><br>
 ><div align=center><b>Back-End: <u>PHP</u></b></div>
 ><div align="center">
-><img width="23%" src="https://th.bing.com/th/id/R.a06f893745ee1147e07c78fd77379001?rik=IMu3d1%2f%2b%2bZhfJA&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f2016%2f05%2fPHP-Logo-PNG.png&ehk=esLjG6U3yTbXrc2nN2ogO0gO92CiptKzOPQEG6sxA%2fY%3d&risl=&pid=ImgRaw&r=0">
+><img width="23%" src="https://www.php.net/images/logos/new-php-logo.svg">
 ></div>
 ><div align=center><b>Outras ferramentas: Papel e caneta, VS Code, PlantUML</b></div> 
  
