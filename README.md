@@ -63,8 +63,7 @@ Bem-vindo ao repositório da TechNova! Este projeto é mantido por uma equipe de
 Conheça a equipe por trás do projeto:
 
 - [Cauã Porciuncula](https://github.com/Khaleb457)
-- [Erick](#)
-- [Gabriela](#)
+
 - [Rafael Lima](https://github.com/RafaelGoncalves-bit)
 - [Maylon Leyn](https://github.com/maylonhenriqueleyn)
 
