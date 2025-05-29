@@ -1,0 +1,248 @@
+/* ======================== */
+/*        RESET GERAL       */
+/* ======================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ======================== */
+/*       ESTILO GLOBAL      */
+/* ======================== */
+body {
+  background-color: #fff3e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #5d4037;
+}
+
+.container {
+  padding: 40px 20px;
+}
+
+/* ======================== */
+/*          CARDS           */
+/* ======================== */
+.card {
+  background-color: #ffffff;
+  border: 2px solid #f8bbd0;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(93, 64, 55, 0.2);
+  transition: transform 0.2s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card-img-top {
+  border-radius: 15px 15px 0 0;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-header {
+  background-color: #f48fb1;
+  color: #ffffff;
+  border-radius: 15px 15px 0 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 15px;
+}
+
+.card-body {
+  padding: 25px;
+  color: #5d4037;
+}
+
+.card-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #d81b60;
+  margin-bottom: 15px;
+}
+
+/* ======================== */
+/*        FORMULÁRIOS       */
+/* ======================== */
+.form-label {
+  font-weight: 600;
+  color: #5d4037;
+}
+
+input[type="number"],
+textarea {
+  border: 1px solid #d7ccc8;
+  border-radius: 8px;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 0.95rem;
+}
+
+textarea {
+  resize: none;
+}
+
+button.btn {
+  background-color: #f48fb1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+button.btn:hover {
+  background-color: #ec407a;
+}
+
+/* ======================== */
+/*      NAVBAR DOCERIA      */
+/* ======================== */
+.navbar-doceria {
+  background-color: #fff3e0;
+  border-bottom: 2px solid #f8bbd0;
+}
+
+.text-logo {
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: bold;
+  color: #d81b60;
+  font-size: 1.5rem;
+}
+
+.nav-doceria-link {
+  color: #5d4037 !important;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.nav-doceria-link:hover {
+  color: #d81b60 !important;
+}
+
+.dropdown-doceria {
+  background-color: #ffe5ec;
+  border: 1px solid #f8bbd0;
+}
+
+.dropdown-doceria .dropdown-item {
+  color: #5d4037;
+}
+
+.dropdown-doceria .dropdown-item:hover {
+  background-color: #fce4ec;
+  color: #d81b60;
+}
+
+/* ======================== */
+/*       BOTÕES NAVBAR      */
+/* ======================== */
+.btn-login {
+  background-color: #f48fb1;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn-login:hover {
+  background-color: #ec407a;
+  color: white;
+}
+
+.btn-carrinho {
+  border: 2px solid #f48fb1;
+  color: #f48fb1;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.btn-carrinho:hover {
+  background-color: #f48fb1;
+  color: white;
+}
+
+/* ======================== */
+/*        TABELAS           */
+/* ======================== */
+.table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+  background-color: #fff8f4;
+  box-shadow: 0 4px 10px rgba(93, 64, 55, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table thead {
+  background-color: #f48fb1;
+  color: white;
+  text-transform: uppercase;
+}
+
+.table th,
+.table td {
+  padding: 15px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #f8bbd0;
+  font-size: 0.95rem;
+  color: #5d4037;
+}
+
+.table-striped tbody tr:nth-child(odd) {
+  background-color: #fff3e0;
+}
+
+.table-striped tbody tr:hover {
+  background-color: #ffe0eb;
+}
+
+.table-dark {
+  background-color: #5d4037;
+  color: white;
+}
+
+/* ======================== */
+/*     LOGIN - ESPECÍFICO   */
+/* ======================== */
+.login-form {
+  background-color: #ffffff;
+  border: 2px solid #f8bbd0;
+  box-shadow: 0 4px 12px rgba(93, 64, 55, 0.1);
+  border-radius: 15px;
+  max-width: 420px;
+  margin: 40px auto;
+  padding: 30px;
+  color: #5d4037;
+}
+
+.login-form h2 {
+  color: #d81b60;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.login-form input,
+.login-form button {
+  border-radius: 8px;
+}
+
+.login-form button {
+  background-color: #f48fb1;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+}
+
+.login-form button:hover {
+  background-color: #ec407a;
+}
+

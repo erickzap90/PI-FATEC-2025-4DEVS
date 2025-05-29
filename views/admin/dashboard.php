@@ -1,47 +1,10 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard de Vendas - Evento</title>
-
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Chart.js -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-  <!-- Custom CSS -->
-  <style>
-    body {
-      background-color: #f4f6f9;
-    }
-
-    .card {
-      margin-bottom: 20px;
-    }
-
-    .card-header {
-      background-color: #343a40;
-      color: white;
-    }
-
-    .card-body {
-      padding: 2rem;
-    }
-
-    .container {
-      max-width: 1200px;
-      margin-top: 30px;
-    }
-  </style>
-</head>
-
 <?php
+include "../partials/header.html";
 include "../partials/navbar.html";
 
 ?>
+<!-- Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 <body>
 
@@ -139,9 +102,6 @@ include "../partials/navbar.html";
     </div>
   </div>
 
-  <!-- Bootstrap JS (optional) -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-
   <!-- Custom JS -->
   <script>
     // Gráfico de Vendas por Hora
@@ -210,6 +170,6 @@ include "../partials/navbar.html";
     });
   </script>
 
-</body>
-
-</html>
+<?php
+  include "../partials/footer.html";
+?>
