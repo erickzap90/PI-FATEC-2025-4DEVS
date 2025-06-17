@@ -1,6 +1,11 @@
 <?php
-include "../partials/header.html";
-include "../partials/navbar.html";
+  include "../partials/header.html";
+  include "../partials/navbar.php";
+  
+  if (!isset($_SESSION['tipo_usuario']) || $_SESSION['tipo_usuario'] !== 'admin') {
+      header("Location: /PI-FATEC-2025-4DEVS/views/admin/login.php");
+      exit;
+  }
 
 ?>
 <!-- Chart.js -->
@@ -59,7 +64,7 @@ include "../partials/navbar.html";
             Produtos Mais Vendidos
           </div>
           <div class="card-body text-center">
-            <h3>Hamburguer X</h3>
+            <h3>Hot Dog Coreano</h3>
             <p>O produto que mais vendeu durante o evento</p>
           </div>
         </div>
@@ -133,7 +138,7 @@ include "../partials/navbar.html";
     var bestSellingProductsChart = new Chart(ctx2, {
       type: 'bar',
       data: {
-        labels: ['Hamburguer X', 'Fritas', 'Refrigerante', 'Pizza'],
+        labels: ['Hot Dog Coreano', 'Batata Simples', 'Refrigerante', 'Onigiri'],
         datasets: [{
           label: 'Quantidade Vendida',
           data: [300, 150, 180, 120],
@@ -157,7 +162,7 @@ include "../partials/navbar.html";
     var totalSalesByProductChart = new Chart(ctx3, {
       type: 'pie',
       data: {
-        labels: ['Hamburguer X', 'Fritas', 'Refrigerante', 'Pizza'],
+        labels: ['Hot Dog Coreano', 'Batata Simples', 'Refrigerante', 'Onigiri'],
         datasets: [{
           label: 'Vendas Totais (R$)',
           data: [8000, 4000, 4500, 2500],

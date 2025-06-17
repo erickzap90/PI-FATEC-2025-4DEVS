@@ -1,6 +1,11 @@
 <?php
 include "partials/header.html";
-include "partials/navbar.html";
+include "partials/navbar.php";
+
+if (!isset($_SESSION['tipo_usuario'])) {
+    header("Location: /PI-FATEC-2025-4DEVS/views/admin/login.php");
+    exit;
+}
 ?>
 
 <!-- Cadastro de Produto -->
@@ -25,20 +30,9 @@ include "partials/navbar.html";
             </div>
 
             <div class="mb-3">
-              <label for="productQuantity" class="form-label">Quantidade</label>
-              <input type="number" class="form-control" id="productQuantity" value="1" min="1" required>
+              <label for="productImage" class="form-label">Imagem do Produto </label>
+              <input type="file" class="form-control" id="productImage" placeholder="URL da imagem" required>
             </div>
-
-            <div class="mb-3">
-              <label for="productImage" class="form-label">Imagem do Produto (URL)</label>
-              <input type="url" class="form-control" id="productImage" placeholder="URL da imagem" required>
-            </div>
-
-            <div class="mb-3">
-              <label for="productObservations" class="form-label">Observações</label>
-              <textarea class="form-control" id="productObservations" rows="3" placeholder="Observações sobre o produto"></textarea>
-            </div>
-
             <div class="text-center">
               <button type="submit" class="btn">Cadastrar Produto</button>
             </div>
