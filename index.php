@@ -1,9 +1,10 @@
 <?php
-  include "partials/header.html";
-  include "partials/navbar.php";
+  require_once "config.php";
+  include ROOT_PATH . "/views/partials/header.php";
+  include ROOT_PATH . "/views/partials/navbar.php";
 
 if (!isset($_SESSION['tipo_usuario'])) {
-    header("Location: /PI-FATEC-2025-4DEVS/views/admin/login.php");
+    header("Location: " . BASE_URL . "/views/admin/login.php");
     exit;
 }
 ?>
@@ -14,7 +15,7 @@ if (!isset($_SESSION['tipo_usuario'])) {
   <!-- Card 1 -->
   <div class="col-md-4">
     <div class="card">
-      <img src="../img/hotdog.jpeg" class="card-img-top" alt="Imagem do produto">
+      <img src="<?= BASE_URL ?>/img/hotdog.jpeg" class="card-img-top" alt="Imagem do produto">
       <div class="card-body">
         <h5 class="card-title">Hot Dog Coreano</h5>
         <div class="mb-3 row">
@@ -42,7 +43,7 @@ if (!isset($_SESSION['tipo_usuario'])) {
   <!-- Card 2 -->
   <div class="col-md-4">
     <div class="card">
-      <img src="../img/cachorroquente.jpeg" class="card-img-top" alt="Imagem do produto">
+      <img src="<?= BASE_URL ?>/img/cachorroquente.jpeg" class="card-img-top" alt="Imagem do produto">
       <div class="card-body">
         <h5 class="card-title">Cachorro Quente</h5>
         <div class="mb-3 row">
@@ -70,7 +71,7 @@ if (!isset($_SESSION['tipo_usuario'])) {
   <!-- Card 3 -->
   <div class="col-md-4">
     <div class="card">
-      <img src="../img/batatasimplescopia.jpg" class="card-img-top" alt="Imagem do produto">
+      <img src="<?= BASE_URL ?>/img/batatasimplescopia.JPG" class="card-img-top" alt="Imagem do produto">
       <div class="card-body">
         <h5 class="card-title">Batata Simples</h5>
         <div class="mb-3 row">
@@ -98,7 +99,7 @@ if (!isset($_SESSION['tipo_usuario'])) {
   <!-- Card 5 -->
   <div class="col-md-4">
     <div class="card">
-      <img src="../img/cheddarebaconcopia.png" class="card-img-top" alt="Imagem do produto">
+      <img src="<?= BASE_URL ?>/img/cheddarebaconcopia.PNG" class="card-img-top" alt="Imagem do produto">
       <div class="card-body">
         <h5 class="card-title">Batata com Cheddar e Bacon</h5>
         <div class="mb-3 row">
@@ -126,7 +127,7 @@ if (!isset($_SESSION['tipo_usuario'])) {
   <!-- Card 5 -->
   <div class="col-md-4">
     <div class="card">
-      <img src="../img/macadoamor.jpeg" class="card-img-top" alt="Imagem do produto">
+      <img src="<?= BASE_URL ?>/img/macadoamor.jpeg" class="card-img-top" alt="Imagem do produto">
       <div class="card-body">
         <h5 class="card-title">Maçã do Amor</h5>
         <div class="mb-3 row">
@@ -154,7 +155,7 @@ if (!isset($_SESSION['tipo_usuario'])) {
   <!-- Card 6 -->
   <div class="col-md-4">
     <div class="card">
-      <img src="../img/onigiri.jpg" class="card-img-top" alt="Imagem do produto">
+      <img src="<?= BASE_URL ?>/img/onigiri.jpg" class="card-img-top" alt="Imagem do produto">
       <div class="card-body">
         <h5 class="card-title">Onigiri</h5>
         <div class="mb-3 row">
@@ -182,7 +183,7 @@ if (!isset($_SESSION['tipo_usuario'])) {
   <!-- Card 6 -->
   <div class="col-md-4">
     <div class="card">
-      <img src="../img/hotroll.webp" class="card-img-top" alt="Imagem do produto">
+      <img src="<?= BASE_URL ?>/img/hotroll.webp" class="card-img-top" alt="Imagem do produto">
       <div class="card-body">
         <h5 class="card-title">Hot Roll (7 Unidades)</h5>
         <div class="mb-3 row">
@@ -210,7 +211,7 @@ if (!isset($_SESSION['tipo_usuario'])) {
   <!-- Card 7 -->
   <div class="col-md-4">
     <div class="card">
-      <img src="../img/refrigerante.jpg" class="card-img-top" alt="Imagem do produto">
+      <img src="<?= BASE_URL ?>/img/refrigerante.jpg" class="card-img-top" alt="Imagem do produto">
       <div class="card-body">
         <h5 class="card-title">Refrigerante Lata</h5>
         <div class="mb-3 row">
@@ -238,7 +239,7 @@ if (!isset($_SESSION['tipo_usuario'])) {
   <!-- Card 7 -->
   <div class="col-md-4">
     <div class="card">
-      <img src="../img/agua.webp" class="card-img-top" alt="Imagem do produto">
+      <img src="<?= BASE_URL ?>/img/agua.webp" class="card-img-top" alt="Imagem do produto">
       <div class="card-body">
         <h5 class="card-title">Água 500ml</h5>
         <div class="mb-3 row">
@@ -289,5 +290,5 @@ if (!isset($_SESSION['tipo_usuario'])) {
 
 
 <?php
-  include "partials/footer.html";
+  include ROOT_PATH . "/views/partials/footer.html";
 ?>
