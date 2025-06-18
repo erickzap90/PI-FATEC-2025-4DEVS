@@ -1,6 +1,13 @@
 <?php
-  include "../partials/header.html";
-  include "../partials/navbar.html";
+  require_once "../../config.php";
+  include ROOT_PATH . "/views/partials/header.php";
+  include ROOT_PATH . "/views/partials/navbar.php";
+
+  
+  if (!isset($_SESSION['tipo_usuario']) || $_SESSION['tipo_usuario'] !== 'admin') {
+    header("Location: " . BASE_URL . "/views/admin/login.php");
+    exit;
+  } 
 ?>
 
 <div class="container my-5">
@@ -39,5 +46,5 @@
 </div>
 
 <?php
-  include "../partials/footer.html";
+  include ROOT_PATH . "/views/partials/footer.html";
 ?>
