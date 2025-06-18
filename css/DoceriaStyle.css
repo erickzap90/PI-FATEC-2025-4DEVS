@@ -38,7 +38,7 @@ body {
 
 .card-img-top {
   border-radius: 15px 15px 0 0;
-  height: 200px;
+  height: 350px;
   object-fit: cover;
 }
 
@@ -244,5 +244,33 @@ button.btn:hover {
 
 .login-form button:hover {
   background-color: #ec407a;
+}
+
+/* Status visual */
+.status {
+  font-size: 0.85rem;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 12px;
+}
+
+.status-aguardando {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status-preparo {
+  background-color: #ffe0b2;
+  color: #bf360c;
+}
+
+.status-pronto {
+  background-color: #c8e6c9;
+  color: #2e7d32;
+}
+
+.preco-produto {
+  font-size: 1.2rem;
+  color: #ec407a;
 }
 

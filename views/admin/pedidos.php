@@ -1,6 +1,11 @@
 <?php
   include "../partials/header.html";
-  include "../partials/navbar.html";
+  include "../partials/navbar.php";
+  
+  if (!isset($_SESSION['tipo_usuario']) || $_SESSION['tipo_usuario'] !== 'admin') {
+    header("Location: /PI-FATEC-2025-4DEVS/views/admin/login.php");
+    exit;
+  } 
 ?>
 
 <div class="container my-5">
