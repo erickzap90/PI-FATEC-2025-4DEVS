@@ -1,6 +1,8 @@
 <?php
-include "../partials/header.html"; 
-include "../partials/navbar.php"; 
+  require_once "../../config.php";
+  include ROOT_PATH . "/views/partials/header.php";
+  include ROOT_PATH . "/views/partials/navbar.php";
+
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $email = $_POST['email'];
@@ -8,11 +10,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     if ($email === "adm" && $senha === "adm") {
         $_SESSION['tipo_usuario'] = "admin";
-        header("Location: ../index.php");
+        header("Location: " . BASE_URL . "/index.php");
         exit;
     } elseif ($email === "funcionario" && $senha === "funcionario") {
         $_SESSION['tipo_usuario'] = "funcionario";
-        header("Location: ../index.php");
+        header("Location: " . BASE_URL . "/index.php");
         exit;
     } else {
         $erro = "Credenciais inválidas.";
@@ -36,4 +38,4 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     </form>
 </div>
 
-<?php include "../partials/footer.html"; ?>
+<?php   include ROOT_PATH . "/views/partials/footer.html";?>
